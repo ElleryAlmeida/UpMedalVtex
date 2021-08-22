@@ -1,0 +1,29 @@
+.searchBarContainer{
+    background-color: black;
+}
+
+.logoLink {
+    background-color: black;
+}
+
+.imageElement {
+    border-radius: 30px;
+}
+
+.imageElement--first {
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.productName {
+    color:white
+}
+
+.productBrand{
+    color:black
+}
+
+.content{
+    color: white
+}
+

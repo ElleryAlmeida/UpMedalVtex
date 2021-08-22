@@ -1,0 +1,70 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footerMobile"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "flex-layout.row#footer1",
+      "login",
+      "image#2",
+      "image#3",
+      "flex-layout.row#footer1",
+      "desafio"
+      
+    ],
+    "props": {
+      "blockClass": "foot"
+    }
+  },
+
+  "flex-layout.row#footer1": {
+
+  },
+
+  "flex-layout.row#footerMobile":{
+    "children":[
+      "image#11"
+    ]
+  },
+
+  "image#1": {
+    "props": {
+      "width": 200, 
+      "src": "https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg"
+    }
+  },
+  "image#2": {
+    "props": {
+      "width": 200, 
+      "src": "https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg"
+    }
+  },
+    "image#3": {
+      "props": {
+        "width": 200, 
+        "src": "https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg"
+      }
+    },
+    "image#4": {
+      "props": {
+        "width": 200, 
+        "src": "https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg"
+      }
+    },
+    "image#11": {
+      "props": {
+        "width": 150, 
+        "src": "https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg"
+      }
+    }
+  }

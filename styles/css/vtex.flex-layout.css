@@ -1,0 +1,35 @@
+.flexCol--header{
+    background-color: black;
+}
+
+.flexRowContent{
+    background-color: dimgray;
+}
+
+.flexCol--prod {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: greenyellow;
+    border: solid 3px greenyellow;
+}
+
+.flexColChild {
+    background-color: dimgray;
+}
+
+.flexRowContent--items {
+    background-color: dimgray;
+}
+
+.flexRowContent--headerRight{
+    background-color: black;
+}
+
+.flexRow--search{
+    background-color: black;
+}
+
+.flexRowContent--headerPrinc{
+    background-color: black;
+}
+

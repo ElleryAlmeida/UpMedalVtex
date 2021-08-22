@@ -1,0 +1,24 @@
+.slideChildrenContainer--destaque {
+    background-color: "#4F4F4F";
+    color: white;
+}
+
+.caretIcon {
+    color: white
+}
+
+.slideChildrenContainer--tab-header {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+}
+
+.sliderArrows--destaque {
+    bottom:0;
+    width: 30%
+}
+
+.sliderLayoutContainer--list {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,217 @@
+{
+  "store.home": { 
+    "blocks": [
+      "tab-layout#header" //Tab layout logo abaixo do header
+    ]
+  },
+
+  
+  "tab-layout#header":{
+    "props":{
+    },
+    "children": [
+      "tab-list#header",
+      "slider-layout#destaque", // Colocando o Slider layout de destaques antes do conteúdo tab
+      "tab-content#header" 
+    ]
+  },
+
+  "tab-list#header": {
+    "children": [
+      "slider-layout#header" // Colocar um slider layout dentro do tab layout
+      ]
+  },
+
+  "slider-layout#header": {
+    "props":{
+      "itemsPerPage": { 
+        "desktop": 7,
+        "tablet": 5,
+        "phone": 2
+      },
+      "blockClass":"tab-header",
+      "navigationStep": "page",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7",
+      "tab-list.item#8",
+      "tab-list.item#9",
+      "tab-list.item#10"
+    ]
+
+  },
+
+  "tab-content#header": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4",
+      "tab-content.item#5",
+      "tab-content.item#6",
+      "tab-content.item#7",
+      "tab-content.item#8",
+      "tab-content.item#9",
+      "tab-content.item#10"
+      ]
+  },
+
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "Promoção",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "Signos"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "Divertidos"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 MARAVILHAS"
+    }
+  },
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS"
+    }
+  },
+  "tab-list.item#8": {
+    "props": {
+      "tabId": "album1",
+      "label": "ÁLBUM1"
+    }
+  },
+  "tab-list.item#9": {
+    "props": {
+      "tabId": "album2",
+      "label": "Álbum 2"
+    }
+  },
+  "tab-list.item#10": {
+    "props": {
+      "tabId": "album3",
+      "label": "Álbum3"
+    }
+  },
+
+  "tab-content.item#1": {
+    "children": [
+      "list-context.product-list#1"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "list-context.product-list#2"
+    ],
+    "props": {
+      "tabId": "flamengo"
+    }
+  },
+  "tab-content.item#3": {
+    "children": [
+      "list-context.product-list#3"
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#4": {
+    "children": [
+      "list-context.product-list#4"
+    ],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#5": {
+    "children": [
+      "list-context.product-list#5"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#6": {
+    "children": [
+      "list-context.product-list#6"
+    ],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+  "tab-content.item#7": {
+    "children": [
+      "list-context.product-list#7"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-content.item#8": {
+    "children": [
+      "list-context.product-list#8"
+    ],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+  "tab-content.item#9": {
+    "children": [
+      "list-context.product-list#9"
+    ],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+  "tab-content.item#10": {
+    "children": [
+      "list-context.product-list#10"
+    ],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+  }
